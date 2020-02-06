@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#009688</item>
+        <item name="colorAccent">#009688</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#AAFFFFFF</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/start_button_selector</item>
+    </style>
+
+    <!-- 设置Toolbar标题字体的颜色大小 -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item><!--toolbar标题字体大小-->
+        <item name="android:textColor">#ffffff</item><!--toolbar标题字体颜色-->
+    </style>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_button_pressed">#60cfd8dc</color>
+    <color name="color_button_default">#6090a4ae</color>
+    <color name="like">#004d40</color>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/trans_sw_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/trans_et_target"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/trans_tv_english"
+        android:background="@drawable/trans_edit_text"
+        android:gravity="left|top"
+        android:inputType="textMultiLine"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:scrollbars="vertical"
+        android:textCursorDrawable="@drawable/edittext_color_cursor" />
+
+    <TextView
+        android:id="@+id/trans_tv_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="81dp"
+        android:text="英文"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/trans_tv_chain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:text="中文"
+        android:textSize="24sp" />
+
+</RelativeLayout>

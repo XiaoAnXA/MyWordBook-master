@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/start_iv_background"
+        android:background="@drawable/start_background1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/ButtonStyle"
+                android:text="@string/Button1" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/ButtonStyle"
+                android:text="@string/Button2"/>
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/ButtonStyle"
+                android:text="@string/Button3" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/ButtonStyle"
+                android:text="@string/Button4" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/ButtonStyle"
+                android:text="@string/Button5"/>
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/ButtonStyle"
+                android:text="@string/Button6" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/ButtonStyle"
+                android:text="@string/Button7" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/ButtonStyle"
+                android:text="@string/Button8" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/ButtonStyle"
+                android:text="@string/Button9" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button0"
+        style="@style/ButtonStyle"
+        android:layout_below="@+id/table_layout"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Button0" />
+
+    <TextView
+        android:id="@+id/start_tv_password"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:text=""
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/start_iv_delete"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginTop="109dp"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="97dp" />
+
+    <TextView
+        android:id="@+id/start_tv_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="请输入密码"
+        android:textSize="18sp" />
+
+</RelativeLayout>

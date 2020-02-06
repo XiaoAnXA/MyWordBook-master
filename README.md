@@ -7,6 +7,7 @@
 进行英语单词翻译《中英互译》
 
 
+
 使用框架如下：
 图片请求框架：glid:
 json解析框架：gson
@@ -33,4 +34,4 @@ json解析框架：gson
     implementation 'com.squareup.retrofit2:converter-scalars:2.7.1'
     implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
 
-### 后面还需要优化，初步实现了大提功能
+### 后面还需要优化，初步实现了大体功能
